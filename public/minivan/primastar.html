@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primastar</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar" class="navbar fixed-top navbar-light">
+        <div class="container-fluid">
+            <a href="/"><img class="navbar-brand" src="../assets/Tre Kronor-alt.png" alt="Tre Kronor Cars" id="TKLogo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <img src="../assets/menu_icon.png" alt="icono_menu">
+            </button>
+            <div class="collapse navbar-collapse justify-content-around" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="/" class="">Hem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#aboutTitle" class="">Om oss</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#contactUs" class="">Kontakta oss</a>
+                    <li class="nav-item">
+                        <a href="../index.html#carsTitle" class="">Bilar i lager</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <section id="slideshow">
+        <div class="row">
+            <div class="containerSlideShow col-md-5 col-lg-5 col-sm-10 m-lg-5 m-md-2 m-sm-0">
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="../assets/autos/2008.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="../assets/autos/3008.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="../assets/autos/auto1.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="../assets/autos/koleos1.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="../assets/autos/koleos2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="../assets/autos/mercedes1100.jpg" style="width:100%">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Image text -->
+                <!--<div class="caption-container">
+                    <p id="caption"></p>
+                </div>-->
+
+                <!-- Thumbnail images -->
+                <div class="fila">
+                    <div class="column">
+                        <img class="demo cursor" src="../assets/autos/2008.jpg" style="width:100%" onclick="currentSlide(1)"
+                            alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../assets/autos/3008.jpg" style="width:100%" onclick="currentSlide(2)"
+                            alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../assets/autos/auto1.jpg" style="width:100%" onclick="currentSlide(3)"
+                            alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../assets/autos/koleos1.jpg" style="width:100%" onclick="currentSlide(4)"
+                            alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../assets/autos/koleos2.jpg" style="width:100%" onclick="currentSlide(5)"
+                            alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="../assets/autos/mercedes1100.jpg" style="width:100%" onclick="currentSlide(6)"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="datos col-md-5 col-lg-5 col-sm-10 m-lg-5 m-md-2 m-sm-0">
+                <h2>Nissan Primastar 2.00 dCi</h2>
+                <div class="row">
+                    <ul class="col m-2">
+                        <li>Årsmodell - 2013</li>
+                        <li>Miltal - 16 000 mil</li>
+                        <li>Bränsletyp - Diesel</li>
+                        <li>Effekt - 114 hk</li>
+                        <li>REGNR - NHZ 336</li>
+                        <li>Kaross - Minibuss</li>
+                        <li>Färg - Silver</li>
+                        <li>Skick - Begagnad</li>
+                        <li>Växellåda - Manuell</li>
+                        <li>Drivaxel - Framhjulsdrift</li>
+                        <li>Bränsleförbrukning - 7.3 liter/100km</li>
+                    </ul>
+                    <ul class="col m-2">
+                        <li>Nycklar - 2</li>
+                        <li>Däck - sommar och vinter</li>
+                        <li>Besiktigad - 02/10 - 2022</li>
+                        <li>Årlig skatt - 5222 SEK</li>
+                        <li>Säten - 9</li>
+                        <li>Dörrar - 4</li>
+                    </ul>
+                </div>
+                <div id="moreInfo" class="mb-5">
+                    <div class="container">
+                        <button type="button" class="btn btn-dark mb-3" data-bs-toggle="collapse" data-bs-target="#infoCollapse" aria-expanded="false" aria-controls="infoCollapse">Mer information</button>
+                        <div class="datos content collapse" id="infoCollapse">
+                            <h3>Utrustning:</h3>
+                            <div class="row m-3">
+                                <ul class="col">
+                                    <li>12V-uttag</li>
+                                    <li>ABS-bromsar</li>
+                                    <li>AC</li>
+                                    <li>Antisladd</li>
+                                    <li>Airbag förare</li>
+                                    <li>Airbag passagerare fram</li>
+                                    <li>Avstängningsbar airbag</li>
+                                    <li>Bromsassistans</li>
+                                    <li>Bluetooth/AUX</li>
+                                    <li>CD-Stereo</li>
+                                    <li>Centrallås</li>
+                                    <li>Dragkrok</li>
+                                    <li>Elhissar (fram)</li>
+                                </ul>
+            
+                                <ul class="col">
+                                    <li>Färddator</li>
+                                    <li>Klädsel (tyg)</li>
+                                    <li>Läslampa</li>
+                                    <li>Multifunktionsratt</li>
+                                    <li>Mattor (gummi)</li>
+                                    <li>Startspärr</li>
+                                    <li>Stöldlarm</li>
+                                    <li>Svensksåld</li>
+                                    <li>Sätesvärme (fram)</li>
+                                    <li>Yttertemperaturmätare</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="row">
+            <svg id="wave" class="ola2" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 310" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(43, 112, 201, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(43, 112, 201, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,279L1440,186L2880,248L4320,155L5760,124L7200,62L8640,62L10080,155L11520,248L12960,93L14400,186L15840,62L17280,217L18720,248L20160,62L21600,279L23040,155L24480,279L25920,124L27360,93L28800,217L30240,186L31680,248L33120,31L34560,248L34560,310L33120,310L31680,310L30240,310L28800,310L27360,310L25920,310L24480,310L23040,310L21600,310L20160,310L18720,310L17280,310L15840,310L14400,310L12960,310L11520,310L10080,310L8640,310L7200,310L5760,310L4320,310L2880,310L1440,310L0,310Z">
+            </path>
+            </svg>
+        </div>
+        <div class="contenedor" id="contactUs">
+            <div class="row">
+                <div class="col-sm-4 col-md-6 col-lg-6 contenido">
+                    <div class="row ">
+                        
+                    </div>
+                    <div class="row contactUs">
+                        <span>Contact us</span>
+                        <span>We'll answer you as soon as we can...</span>
+                        <a href="mailto:" class="mail  py-4"><i class="fa-regular fa-envelope px-3"></i>info@trekronorcars.se</a>
+                    </div>
+                </div>
+        
+                <div class="col-sm-4 col-md-4 col-lg-4 text-center contenido">
+                    <div class="row" id="sitemap">
+                        <img src="../assets/Tre Kronor-alt.png" alt="Tre Kronor Cars" id="TKLogo" class="justify-content-center">
+                        <h5><a href="/">Hem</a></h5>
+                        <h5><a href="../index.html#aboutTitle" class="">Om oss</a></h5>
+                        <h5><a href="../index.html#carsTitle" class="">Bilar i lager</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <h6 class="col-md-2 col-lg-2 col-sm-10"> © 2023 William Morales </h6>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://kit.fontawesome.com/99dbfe02f7.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js">
+</script>
+<script src="../index.js"></script>
+</html>
